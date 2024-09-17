@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(0, 0%, 100%); /* Color de fondo similar a la imagen */
+    font-family: Segoe UI;
+}
+
+.color-box {
+    width: 420px;
+    height: 340px;
+    margin: 24px auto;
+    position: relative; /* Para centrar el contenido de las arrobas en el cuadro blanco */
+}
+
+#green-box {
+    background-color: rgb(0, 128, 0);
+}
+
+#white-box {
+    background-color: rgb(255, 255, 255);
+}
+
+#red-box {
+    background-color: rgb(128, 0, 0);
+}
+
+h5 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* Para centrar las arrobas en el cuadro blanco */
+.arroba-grid {
+    position: absolute;
+    font-family: Segoe UI;
+    letter-spacing: 1px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    line-height: 1.6; /* Ajuste de la altura entre las líneas */
+    text-align: center;
+}
